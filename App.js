@@ -75,6 +75,11 @@ value={signUpData.username} onChange={handleSignUpChange} required />
             <input type="email" id="signUpEmail" name="email"
 value={signUpData.email} onChange={handleSignUpChange} required />
 
+   <label htmlFor="signInOTP">Username:</label>
+            <input type="text" id="signIn With OTP" name="OTP"
+value={signInData.OTP} onChange={handleSignInChange} required />
+
+
             <label htmlFor="signUpPassword">Password:</label>
             <input type="password" id="signUpPassword" name="password"
 value={signUpData.password} onChange={handleSignUpChange} required />
