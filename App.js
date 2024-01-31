@@ -1,10 +1,11 @@
+
 import React, { useState } from 'react';
 import './App.css';
 const App = () => {
   const [activeForm, setActiveForm] = useState('signIn');
-  const [signInData, setSignInData] = useState({ username: '', password: '',forgotpassword: '' });
+  const [signInData, setSignInData] = useState({ username: '', password: '' });
   const [signUpData, setSignUpData] = useState({ username: '', email:
-'', password: '', confirmPassword: '',phonenumber: '',dob: "});
+'', password: '', confirmPassword: '' });
   const [forgotPasswordData, setForgotPasswordData] = useState({ email: '' });
 
   const showSignInForm = () => setActiveForm('signIn');
@@ -75,11 +76,6 @@ value={signUpData.username} onChange={handleSignUpChange} required />
             <input type="email" id="signUpEmail" name="email"
 value={signUpData.email} onChange={handleSignUpChange} required />
 
-   <label htmlFor="signInOTP">Username:</label>
-            <input type="text" id="signIn With OTP" name="OTP"
-value={signInData.OTP} onChange={handleSignInChange} required />
-
-
             <label htmlFor="signUpPassword">Password:</label>
             <input type="password" id="signUpPassword" name="password"
 value={signUpData.password} onChange={handleSignUpChange} required />
@@ -126,3 +122,4 @@ alignItems: 'center', height: '100vh' }}>
 };
 
 export default App;
+
