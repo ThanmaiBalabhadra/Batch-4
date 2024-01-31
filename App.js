@@ -4,7 +4,7 @@ const App = () => {
   const [activeForm, setActiveForm] = useState('signIn');
   const [signInData, setSignInData] = useState({ username: '', password: '',forgotpassword: '' });
   const [signUpData, setSignUpData] = useState({ username: '', email:
-'', password: '', confirmPassword: '',phonenumber:'',dob:"});
+'', password: '', confirmPassword: '',phonenumber: '',dob: "});
   const [forgotPasswordData, setForgotPasswordData] = useState({ email: '' });
 
   const showSignInForm = () => setActiveForm('signIn');
