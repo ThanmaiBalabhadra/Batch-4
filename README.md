@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,3 +38,6 @@
    <script src = 'Calculator.js' ></script>
 </body>
 </html>
+=======
+# Batch-4
+>>>>>>> fd4600cd496b57ceb23861108262e273efe393ff
